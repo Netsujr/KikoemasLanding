@@ -60,7 +60,7 @@ html {
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     opacity: 0;
-    animation: moveBanner 1s .5s forwards;
+    animation: fadeIn 3s 1s forwards;
 }
 
 .banner p {
@@ -73,11 +73,11 @@ html {
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     text-align: justify;
     opacity: 0;
-    animation: moveBanner 1s .7s forwards;
+    animation: fadeIn 3s 2s forwards;
 }
 
 .banner button {
-    width: 25rem;
+    width: 15rem;
     height: 7rem;
     background-color: #ffcbfae8;
     border: none;
@@ -90,15 +90,14 @@ html {
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     cursor: pointer;
     opacity: 0;
-    animation: moveBanner 1s .9s forwards;
+    animation: fadeIn 3s 3s forwards;
 }
 
-@keyframes moveBanner {
-    0% {
-        transform: translateY(40rem) rotate(-20deg);
-    }
-    100% {
-        transform: translate(0) rotateY(0);
-        opacity: 1;
-    }
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
