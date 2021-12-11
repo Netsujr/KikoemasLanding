@@ -80,6 +80,8 @@ html {
     width: 100px;
     height: 50px;
     margin-right: 15px;
+    width: fit-content;
+    padding: 10px;
     background-color: #ffcbfae8;
     border: none;
     border-radius: 10px;
