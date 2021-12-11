@@ -141,6 +141,7 @@ html {
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 0.5rem;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .card-img-wrapper {
@@ -191,7 +192,7 @@ html {
     font-family: 'Muli', serif;
     font-size: 2rem;
     font-weight: 500;
-    color: teal;
+    color: #ffcbfae8;
     margin-bottom: 1rem;
 }
 
